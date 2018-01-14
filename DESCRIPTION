@@ -1,0 +1,9 @@
+Package: pendor
+Title: Package to access Pendo
+Version: 0.0.0.9000
+Authors@R: person("Kwan", "Lin", email = "kwan@alumni.brown.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.4.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
