@@ -1,9 +1,11 @@
 Package: pendor
-Title: Package to access Pendo
-Version: 0.0.0.9000
+Title: Pendo + R
+Version: 0.0.1
 Authors@R: person("Kwan", "Lin", email = "kwan@alumni.brown.edu", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.4.1)
-License: What license is it under?
+Description: A collection of functions to tap into Pendo via API.
+Depends: R (>= 3.4.1), httr(>= 1.3.1)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://www.github.com/kwanlin/pendor
+RoxygenNote: 6.0.1.9000
