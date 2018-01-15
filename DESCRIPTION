@@ -1,7 +1,8 @@
-Package: pendor
+Package: pendoR
 Title: Pendo + R
 Version: 0.1.0
-Authors@R: c(person("Kwan", "Lin", email = "kwan@alumni.brown.edu", role = c("aut", "cre")), person("Rapid7", "", comment = "Concept inception", role = "aut"))
+Authors@R: c(person("Kwan", "Lin", email = "kwan@alumni.brown.edu", role = c("aut", "cre")), 
+person("Rapid7", "", comment = "Concept inception", role = "aut"))
 Maintainer: Kwan Lin
 Description: A collection of functions to tap into Pendo via API.
 Depends: R (>= 3.4.1), httr(>= 1.3.1)
