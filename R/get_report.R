@@ -1,13 +1,13 @@
-#' Retrieve specific report from Pendo on JSON format
+#' Retrieve specific report from Pendo in JSON format
 #'
 #' @param string input character vector
 #' @return
 #' @seealso
 #' @export
 #' @examples
-#' report_json(some_auth_key, some_report_id)
+#' get_report(some_auth_key, some_report_id)
 
-report_json <- function(auth_key, report_id) {
+get_report <- function(auth_key, report_id) {
   url <- paste0(c("http://app.pendo.io/api/v1/report/",report_id,"/results.json"), collapse='')
   report <- httr::GET(url,
                       httr::add_headers(

@@ -2,5 +2,5 @@
 
 export(aggregate_json)
 export(get_account)
+export(get_report)
 export(get_visitor)
-export(report_json)
