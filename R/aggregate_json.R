@@ -5,7 +5,7 @@
 #' @seealso
 #' @export
 #' @examples
-aggregation_json <- function(auth_key) {
+aggregate_json <- function(auth_key) {
   url <- paste0(c("app.pendo.io/api/v1/aggregation"), collapse='')
   report <- httr::POST(url,
                        httr::add_headers(
