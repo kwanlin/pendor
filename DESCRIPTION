@@ -7,6 +7,6 @@ Depends: R (>= 3.4.1), dplyr(>= 0.7.2), httr(>= 1.3.1), jsonlite(>= 1.5.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-URL: https://www.github.com/kwanlin/pendor
-BugReports: https://www.github.com/kwanlin/pendor/issues
+URL: https://github.com/kwanlin/pendor
+BugReports: https://github.com/kwanlin/pendor/issues
 RoxygenNote: 6.0.1.9000
