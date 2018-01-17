@@ -1,0 +1,28 @@
+---
+title: "test pendor"
+author: "Kwan Lin"
+date: "January 16, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# library(devtools)
+# install_github(repo = "kwanlin/pendor")
+library(pendor)
+# library(dplyr)
+
+sample_key <- "63bd1cda-db5a-4a2b-633b-37b8b0c5462c"
+sample_report <- "Gcs71tkJQe88CwiBKVQ9zd8sG1U"
+sample_account_id <- "Zeta%20and%20Sons'"
+```
+
+```{r report_json}
+pendor::report_json(sample_key, sample_report)
+```
+
+
+```{r test get_account}
+pendor::get_account(sample_key, sample_account_id)
+```
