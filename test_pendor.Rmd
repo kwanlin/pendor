@@ -7,13 +7,17 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
 
-library(devtools)
+```{r packages, echo = TRUE, include = FALSE}
+# library(devtools)
 # install_github(repo = "kwanlin/pendor")
-install("./pendor")
+# install("./pendor")
 library(pendor)
 # library(dplyr)
+```
 
+```{r Sample Pendo data (from Pendo API documentation)}
 sample_key <- "63bd1cda-db5a-4a2b-633b-37b8b0c5462c"
 sample_report <- "Gcs71tkJQe88CwiBKVQ9zd8sG1U"
 sample_account_id <- "Zeta%20and%20Sons"
